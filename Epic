@@ -1,0 +1,153 @@
+proxies:
+  - name: 🇸🇬 EPIC_新加坡1
+    server: sg.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 EPIC_新加坡2
+    server: sg2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 EPIC_新加坡3
+    server: sg3.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇩🇪 EPIC_德国
+    server: de2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇺🇸 EPIC_美国
+    server: us1.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇬🇧 EPIC_英国1
+    server: uk.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇬🇧 EPIC_英国2
+    server: uk2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇫🇷 EPIC_法国1
+    server: fr.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇫🇷 EPIC_法国2
+    server: fr2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇫🇷 EPIC_法国3
+    server: fr3.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇳🇱 EPIC_荷兰1
+    server: ne.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇳🇱 EPIC_荷兰2
+    server: ne2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇳🇱 EPIC_荷兰3
+    server: ne3.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇮🇳 EPIC_印度1
+    server: ne.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇮🇳 EPIC_印度2
+    server: ne2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇮🇳 EPIC_印度3
+    server: ne3.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇨🇦 EPIC_加拿大1
+    server: ca.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇨🇦 EPIC_加拿大2
+    server: ca2.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
+  - name: 🇨🇦 EPIC_加拿大3
+    server: ca3.epicbrowser.net
+    port: 8888
+    type: http
+    username: ""
+    password: 
+    tls: true
+    skip-cert-verify: false
