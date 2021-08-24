@@ -1,0 +1,567 @@
+rules:
+# check first
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,360.cn,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,com.cn,DIRECT
+
+# hot fix
+- DOMAIN,services.googleapis.cn,Proxy
+- DOMAIN,googleapis.cn,Proxy
+- DOMAIN-SUFFIX,ping.pe,Proxy
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxy
+
+# > Bilibili
+- DOMAIN-KEYWORD,bilibili,DIRECT
+- DOMAIN-SUFFIX,acg.tv,DIRECT
+- DOMAIN-SUFFIX,acgvideo.com,DIRECT
+- DOMAIN-SUFFIX,b23.tv,DIRECT
+- DOMAIN-SUFFIX,biliapi.com,DIRECT
+- DOMAIN-SUFFIX,biliapi.net,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,biligame.com,DIRECT
+- DOMAIN-SUFFIX,biligame.net,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,im9.com,DIRECT
+
+# > Blizzard
+- DOMAIN-SUFFIX,blizzard.com,DIRECT
+- DOMAIN-SUFFIX,battle.net,DIRECT
+- DOMAIN,blzddist1-a.akamaihd.net,DIRECT
+
+# common site
+- DOMAIN,ifconfig.me,Proxy
+- DOMAIN,services.googleapis.cn,Proxy
+- DOMAIN,google.com,Proxy
+- DOMAIN-SUFFIX,google.cn,Proxy
+- DOMAIN-SUFFIX,googleapis.cn,Proxy
+- DOMAIN-KEYWORD,facebook,Proxy
+- DOMAIN-SUFFIX,fb.me,Proxy
+- DOMAIN-KEYWORD,gmail,Proxy
+- DOMAIN-KEYWORD,twitter,Proxy
+- DOMAIN-KEYWORD,instagram,Proxy
+- DOMAIN-SUFFIX,twimg.com,Proxy
+- DOMAIN-KEYWORD,blogspot,Proxy
+- DOMAIN-KEYWORD,whatsapp,Proxy
+- DOMAIN-KEYWORD,scholar,Proxy
+- DOMAIN-KEYWORD,glados,Proxy
+- DOMAIN-KEYWORD,wikipedia,Proxy
+- DOMAIN-SUFFIX,google.com,Proxy
+- DOMAIN-SUFFIX,facebook.com,Proxy
+- DOMAIN-SUFFIX,yahoo.com,Proxy
+- DOMAIN-SUFFIX,amazon.com,Proxy
+- DOMAIN-SUFFIX,vk.com,Proxy
+- DOMAIN-SUFFIX,reddit.com,Proxy
+- DOMAIN-SUFFIX,live.com,Proxy
+- DOMAIN-SUFFIX,zoom.us,Proxy
+- DOMAIN-SUFFIX,wikipedia.org,Proxy
+- DOMAIN-SUFFIX,myshopify.com,Proxy
+- DOMAIN-SUFFIX,instagram.com,Proxy
+- DOMAIN-SUFFIX,okezone.com,Proxy
+- DOMAIN-SUFFIX,office.com,Proxy
+- DOMAIN-SUFFIX,ebay.com,Proxy
+- DOMAIN-SUFFIX,bongacams.com,Proxy
+- DOMAIN-SUFFIX,blogspot.com,Proxy
+- DOMAIN-SUFFIX,yahoo.co.jp,Proxy
+- DOMAIN-SUFFIX,babytree.com,Proxy
+- DOMAIN-SUFFIX,amazon.co.jp,Proxy
+- DOMAIN-SUFFIX,adobe.com,Proxy
+- DOMAIN-SUFFIX,livejasmin.com,Proxy
+- DOMAIN-SUFFIX,stackoverflow.com,Proxy
+- DOMAIN-SUFFIX,dropbox.com,Proxy
+- DOMAIN-SUFFIX,msn.com,Proxy
+- DOMAIN-SUFFIX,yandex.ru,Proxy
+- DOMAIN-SUFFIX,linkedin.com,Proxy
+- DOMAIN-SUFFIX,twitter.com,Proxy
+- DOMAIN-SUFFIX,imgur.com,Proxy
+- DOMAIN-SUFFIX,amazonaws.com,Proxy
+- DOMAIN-SUFFIX,imdb.com,Proxy
+- DOMAIN-SUFFIX,whatsapp.com,Proxy
+- DOMAIN-SUFFIX,google.co.jp,Proxy
+- DOMAIN-SUFFIX,trello.com,Proxy
+- DOMAIN-SUFFIX,wordpress.com,Proxy
+- DOMAIN-SUFFIX,nytimes.com,Proxy
+- DOMAIN-SUFFIX,spotify.com,Proxy
+
+# Video
+- DOMAIN,ip.sb,Proxy
+- DOMAIN-KEYWORD,youtube,Proxy
+- DOMAIN-SUFFIX,youtu.be,Proxy
+- DOMAIN-SUFFIX,googlevideo.com,Proxy
+- DOMAIN-SUFFIX,ytimg.com,Proxy
+- DOMAIN-SUFFIX,googleusercontent.com,Proxy
+- DOMAIN-KEYWORD,twitch,Proxy
+
+#NETFLIX
+- DOMAIN-SUFFIX,netflix.com,Proxy
+- DOMAIN-SUFFIX,netflix.net,Proxy
+- DOMAIN-SUFFIX,nflxext.com,Proxy
+- DOMAIN-SUFFIX,nflximg.com,Proxy
+- DOMAIN-SUFFIX,nflximg.net,Proxy
+- DOMAIN-SUFFIX,nflxso.net,Proxy
+#Fast.com
+- DOMAIN-SUFFIX,oca.nflxvideo.net,Proxy
+- DOMAIN-SUFFIX,nflxvideo.net,Proxy
+
+# > ABC
+- DOMAIN-SUFFIX,edgedatg.com,Proxy
+- DOMAIN-SUFFIX,go.com,Proxy
+
+# > AbemaTV
+- DOMAIN,linear-abematv.akamaized.net,Proxy
+- DOMAIN-SUFFIX,abema.io,Proxy
+- DOMAIN-SUFFIX,abema.tv,Proxy
+- DOMAIN-SUFFIX,akamaized.net,Proxy
+- DOMAIN-SUFFIX,ameba.jp,Proxy
+- DOMAIN-SUFFIX,hayabusa.io,Proxy
+
+# > Amazon Prime Video
+- DOMAIN-SUFFIX,aiv-cdn.net,Proxy
+- DOMAIN-SUFFIX,amazonaws.com,Proxy
+- DOMAIN-SUFFIX,amazonvideo.com,Proxy
+- DOMAIN-SUFFIX,llnwd.net,Proxy
+
+# > Bahamut
+- DOMAIN-SUFFIX,bahamut.com.tw,Proxy
+- DOMAIN-SUFFIX,gamer.com.tw,Proxy
+- DOMAIN-SUFFIX,hinet.net,Proxy
+
+# > BBC
+- DOMAIN-KEYWORD,bbcfmt,Proxy
+- DOMAIN-KEYWORD,co.uk,Proxy
+- DOMAIN-KEYWORD,uk-live,Proxy
+- DOMAIN-SUFFIX,bbc.co,Proxy
+- DOMAIN-SUFFIX,bbc.co.uk,Proxy
+- DOMAIN-SUFFIX,bbc.com,Proxy
+- DOMAIN-SUFFIX,bbci.co,Proxy
+- DOMAIN-SUFFIX,bbci.co.uk,Proxy
+
+# > CHOCO TV
+- DOMAIN-SUFFIX,chocotv.com.tw,Proxy
+
+# > Epicgames
+- DOMAIN-KEYWORD,epicgames,Proxy
+- DOMAIN-SUFFIX,helpshift.com,Proxy
+
+# > Fox+
+- DOMAIN-KEYWORD,foxplus,Proxy
+- DOMAIN-SUFFIX,config.fox.com,Proxy
+- DOMAIN-SUFFIX,emome.net,Proxy
+- DOMAIN-SUFFIX,fox.com,Proxy
+- DOMAIN-SUFFIX,foxdcg.com,Proxy
+- DOMAIN-SUFFIX,foxnow.com,Proxy
+- DOMAIN-SUFFIX,foxplus.com,Proxy
+- DOMAIN-SUFFIX,foxplay.com,Proxy
+- DOMAIN-SUFFIX,ipinfo.io,Proxy
+- DOMAIN-SUFFIX,mstage.io,Proxy
+- DOMAIN-SUFFIX,now.com,Proxy
+- DOMAIN-SUFFIX,theplatform.com,Proxy
+- DOMAIN-SUFFIX,urlload.net,Proxy
+
+# > HBO && HBO Go
+- DOMAIN-SUFFIX,amazonaws.com,Proxy
+- DOMAIN-SUFFIX,hbo.com,Proxy
+- DOMAIN-SUFFIX,hboasia.com,Proxy
+- DOMAIN-SUFFIX,hbogo.com,Proxy
+- DOMAIN-SUFFIX,hbogoasia.hk,Proxy
+
+# > Hulu
+- DOMAIN-SUFFIX,happyon.jp,Proxy
+- DOMAIN-SUFFIX,hulu.com,Proxy
+- DOMAIN-SUFFIX,huluim.com,Proxy
+- DOMAIN-SUFFIX,hulustream.com,Proxy
+
+# > Imkan
+- DOMAIN-SUFFIX,imkan.tv,Proxy
+
+# > JOOX
+- DOMAIN-SUFFIX,joox.com,Proxy
+
+# > MytvSUPER
+- DOMAIN-KEYWORD,nowtv100,Proxy
+- DOMAIN-KEYWORD,rthklive,Proxy
+- DOMAIN-SUFFIX,mytvsuper.com,Proxy
+- DOMAIN-SUFFIX,tvb.com,Proxy
+
+# > Pandora
+- DOMAIN-SUFFIX,pandora.com,Proxy
+
+# > Sky GO
+- DOMAIN-SUFFIX,sky.com,Proxy
+- DOMAIN-SUFFIX,skygo.co.nz,Proxy
+
+# > Spotify
+- DOMAIN-KEYWORD,spotify,Proxy
+- DOMAIN-SUFFIX,scdn.co,Proxy
+- DOMAIN-SUFFIX,spoti.fi,Proxy
+
+# > viuTV
+- DOMAIN-SUFFIX,viu.tv,Proxy
+
+# > Youtube
+- DOMAIN-KEYWORD,youtube,Proxy
+- DOMAIN-SUFFIX,googlevideo.com,Proxy
+- DOMAIN-SUFFIX,gvt2.com,Proxy
+- DOMAIN-SUFFIX,youtu.be,Proxy
+- DOMAIN-SUFFIX,youtu.be,Proxy
+- DOMAIN-SUFFIX,yt.be,Proxy
+- DOMAIN-SUFFIX,ytimg.com,Proxy
+- DOMAIN-KEYWORD,pornhub,Proxy
+- DOMAIN-KEYWORD,porn,Proxy
+- DOMAIN-KEYWORD,phncdn,Proxy
+- DOMAIN-SUFFIX,vimeo.com,Proxy
+- DOMAIN-SUFFIX,vimeocdn.com,Proxy
+
+# > IQIYI
+- DOMAIN-KEYWORD,qiyi,DIRECT
+- DOMAIN-SUFFIX,qy.net,DIRECT
+- DOMAIN-SUFFIX,letv.com,DIRECT
+
+# > NeteaseMusic
+- DOMAIN-SUFFIX,163yun.com,DIRECT
+- DOMAIN-SUFFIX,music.126.net,DIRECT
+- DOMAIN-SUFFIX,music.163.com,DIRECT
+
+#Tech
+- DOMAIN-SUFFIX,code.visualstudio.com,DIRECT
+- DOMAIN-SUFFIX,v2ex.com,Proxy
+- DOMAIN-KEYWORD,gitlab,Proxy
+- DOMAIN-KEYWORD,github,Proxy
+- DOMAIN-KEYWORD,stackoverflow.com,Proxy
+- DOMAIN-SUFFIX,pinboard.in,Proxy
+- DOMAIN-SUFFIX,techcrunch.com,Proxy
+- DOMAIN-SUFFIX,trello.com,Proxy
+- DOMAIN-SUFFIX,techsmith.com,Proxy
+- DOMAIN-SUFFIX,thepiratebay.org,Proxy
+- DOMAIN-SUFFIX,pinterest.com,Proxy
+- DOMAIN-SUFFIX,yacd.haishan.me,Proxy
+
+# DIRECT
+- DOMAIN-SUFFIX,digicert.com,DIRECT
+
+# > Google
+- DOMAIN,pagead2.googlesyndication.com,DIRECT
+- DOMAIN-SUFFIX,abc.xyz,Proxy
+- DOMAIN-SUFFIX,android.com,Proxy
+- DOMAIN-SUFFIX,androidify.com,Proxy
+- DOMAIN-SUFFIX,dialogflow.com,Proxy
+- DOMAIN-SUFFIX,autodraw.com,Proxy
+- DOMAIN-SUFFIX,capitalg.com,Proxy
+- DOMAIN-SUFFIX,certificate-transparency.org,Proxy
+- DOMAIN-SUFFIX,chrome.com,Proxy
+- DOMAIN-SUFFIX,chromeexperiments.com,Proxy
+- DOMAIN-SUFFIX,chromestatus.com,Proxy
+- DOMAIN-SUFFIX,chromium.org,Proxy
+- DOMAIN-SUFFIX,creativelab5.com,Proxy
+- DOMAIN-SUFFIX,debug.com,Proxy
+- DOMAIN-SUFFIX,deepmind.com,Proxy
+- DOMAIN-SUFFIX,firebaseio.com,Proxy
+- DOMAIN-SUFFIX,getmdl.io,Proxy
+- DOMAIN-SUFFIX,ggpht.com,Proxy
+- DOMAIN-SUFFIX,gmail.com,Proxy
+- DOMAIN-SUFFIX,gmodules.com,Proxy
+- DOMAIN-SUFFIX,godoc.org,Proxy
+- DOMAIN-SUFFIX,golang.org,Proxy
+- DOMAIN-SUFFIX,gstatic.com,Proxy
+- DOMAIN-SUFFIX,gv.com,Proxy
+- DOMAIN-SUFFIX,gwtproject.org,Proxy
+- DOMAIN-SUFFIX,itasoftware.com,Proxy
+- DOMAIN-SUFFIX,madewithcode.com,Proxy
+- DOMAIN-SUFFIX,material.io,Proxy
+- DOMAIN-SUFFIX,polymer-project.org,Proxy
+- DOMAIN-SUFFIX,admin.recaptcha.net,Proxy
+- DOMAIN-SUFFIX,recaptcha.net,Proxy
+- DOMAIN-SUFFIX,shattered.io,Proxy
+- DOMAIN-SUFFIX,synergyse.com,Proxy
+- DOMAIN-SUFFIX,tensorflow.org,Proxy
+- DOMAIN-SUFFIX,tiltbrush.com,Proxy
+- DOMAIN-SUFFIX,waveprotocol.org,Proxy
+- DOMAIN-SUFFIX,waymo.com,Proxy
+- DOMAIN-SUFFIX,webmproject.org,Proxy
+- DOMAIN-SUFFIX,webrtc.org,Proxy
+- DOMAIN-SUFFIX,whatbrowser.org,Proxy
+- DOMAIN-SUFFIX,widevine.com,Proxy
+- DOMAIN-SUFFIX,x.company,Proxy
+- DOMAIN-KEYWORD,google,Proxy
+- DOMAIN-SUFFIX,github.com,Proxy
+- DOMAIN-SUFFIX,github.io,Proxy
+
+# apple
+- DOMAIN,hls.itunes.apple.com,DIRECT
+- DOMAIN,itunes.apple.com,DIRECT
+- DOMAIN-SUFFIX,apple.com,DIRECT
+- DOMAIN-SUFFIX,icloud.com,DIRECT
+- DOMAIN-SUFFIX,icloud-content.com,DIRECT
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,127.net,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,36kr.com,DIRECT
+- DOMAIN-SUFFIX,acfun.tv,DIRECT
+- DOMAIN-SUFFIX,air-matters.com,DIRECT
+- DOMAIN-SUFFIX,aixifan.com,DIRECT
+- DOMAIN-SUFFIX,akamaized.net,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-KEYWORD,alipay,DIRECT
+- DOMAIN-KEYWORD,taobao,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-KEYWORD,baidu,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+- DOMAIN-SUFFIX,clouddn.com,DIRECT
+- DOMAIN-SUFFIX,cnbeta.com,DIRECT
+- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+- DOMAIN-SUFFIX,cootekservice.com,DIRECT
+- DOMAIN-SUFFIX,csdn.net,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,dgtle.com,DIRECT
+- DOMAIN-SUFFIX,dianping.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,duokan.com,DIRECT
+- DOMAIN-SUFFIX,easou.com,DIRECT
+- DOMAIN-SUFFIX,ele.me,DIRECT
+- DOMAIN-SUFFIX,feng.com,DIRECT
+- DOMAIN-SUFFIX,fir.im,DIRECT
+- DOMAIN-SUFFIX,frdic.com,DIRECT
+- DOMAIN-SUFFIX,g-cores.com,DIRECT
+- DOMAIN-SUFFIX,godic.net,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN,cdn.hockeyapp.net,DIRECT
+- DOMAIN-SUFFIX,hongxiu.com,DIRECT
+- DOMAIN-SUFFIX,hxcdn.net,DIRECT
+- DOMAIN-SUFFIX,iciba.com,DIRECT
+- DOMAIN-SUFFIX,ifeng.com,DIRECT
+- DOMAIN-SUFFIX,ifengimg.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.com,DIRECT
+- DOMAIN-SUFFIX,knewone.com,DIRECT
+- DOMAIN-SUFFIX,le.com,DIRECT
+- DOMAIN-SUFFIX,lecloud.com,DIRECT
+- DOMAIN-SUFFIX,lemicp.com,DIRECT
+- DOMAIN-SUFFIX,licdn.com,DIRECT
+- DOMAIN-SUFFIX,linkedin.com,DIRECT
+- DOMAIN-SUFFIX,luoo.net,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mi.com,DIRECT
+- DOMAIN-SUFFIX,miaopai.com,DIRECT
+
+# microsoft
+- DOMAIN-SUFFIX,live.com,DIRECT
+- DOMAIN-SUFFIX,live.net,DIRECT
+- DOMAIN-SUFFIX,office.com,DIRECT
+- DOMAIN-SUFFIX,office.net,DIRECT
+- DOMAIN-SUFFIX,sharepoint.com,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-SUFFIX,officeppe.net,DIRECT
+- DOMAIN-SUFFIX,skype.com,DIRECT
+- DOMAIN-SUFFIX,onedrive.com,DIRECT
+- DOMAIN-SUFFIX,msocsp.com,DIRECT
+- DOMAIN-SUFFIX,msauthimages.net,DIRECT
+- DOMAIN-SUFFIX,msauth.net,DIRECT
+- DOMAIN-SUFFIX,msn.com,DIRECT
+- DOMAIN-SUFFIX,onenote.com,DIRECT
+- DOMAIN-SUFFIX,onenote.net,DIRECT
+- DOMAIN-SUFFIX,1drv.com,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miwifi.com,DIRECT
+- DOMAIN-SUFFIX,mob.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,office.com,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-KEYWORD,officecdn,DIRECT
+- DOMAIN-SUFFIX,oschina.net,DIRECT
+- DOMAIN-SUFFIX,ppsimg.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,qdaily.com,DIRECT
+- DOMAIN-SUFFIX,qdmm.com,DIRECT
+- DOMAIN-SUFFIX,qhimg.com,DIRECT
+- DOMAIN-SUFFIX,qhres.com,DIRECT
+- DOMAIN-SUFFIX,qidian.com,DIRECT
+- DOMAIN-SUFFIX,qihucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiniu.com,DIRECT
+- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiyipic.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qqurl.com,DIRECT
+- DOMAIN-SUFFIX,rarbg.to,DIRECT
+- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+- DOMAIN-SUFFIX,segmentfault.com,DIRECT
+- DOMAIN-SUFFIX,sinaapp.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,soku.com,DIRECT
+- DOMAIN-SUFFIX,speedtest.net,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
+- DOMAIN-SUFFIX,suning.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tudou.com,DIRECT
+- DOMAIN-SUFFIX,umetrip.com,DIRECT
+- DOMAIN-SUFFIX,upaiyun.com,DIRECT
+- DOMAIN-SUFFIX,upyun.com,DIRECT
+- DOMAIN-SUFFIX,v2ex.com,DIRECT
+- DOMAIN-SUFFIX,veryzhun.com,DIRECT
+- DOMAIN-SUFFIX,weather.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiami.net,DIRECT
+- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+- DOMAIN-SUFFIX,ximalaya.com,DIRECT
+- DOMAIN-SUFFIX,xmcdn.com,DIRECT
+- DOMAIN-SUFFIX,xunlei.com,DIRECT
+- DOMAIN-SUFFIX,xycdn.com,DIRECT
+- DOMAIN-SUFFIX,yhd.com,DIRECT
+- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+- DOMAIN-SUFFIX,yinxiang.com,DIRECT
+- DOMAIN-SUFFIX,ykimg.com,DIRECT
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,zealer.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+
+# Blocklist 黑名单
+- DOMAIN-SUFFIX,kuaizip.com,REJECT
+- DOMAIN-SUFFIX,mackeeper.com,REJECT
+- DOMAIN-SUFFIX,4009997658.com,REJECT
+- DOMAIN-SUFFIX,abbyychina.com,REJECT
+- DOMAIN-SUFFIX,bartender.cc,REJECT
+- DOMAIN-SUFFIX,betterzip.net,REJECT
+- DOMAIN-SUFFIX,beyondcompare.cc,REJECT
+- DOMAIN-SUFFIX,bingdianhuanyuan.cn,REJECT
+- DOMAIN-SUFFIX,chemdraw.com.cn,REJECT
+- DOMAIN-SUFFIX,cjmakeding.com,REJECT
+- DOMAIN-SUFFIX,cjmkt.com,REJECT
+- DOMAIN-SUFFIX,codesoftchina.com,REJECT
+- DOMAIN-SUFFIX,coreldrawchina.com,REJECT
+- DOMAIN-SUFFIX,crossoverchina.com,REJECT
+- DOMAIN-SUFFIX,easyrecoverychina.com,REJECT
+- DOMAIN-SUFFIX,ediuschina.com,REJECT
+- DOMAIN-SUFFIX,flstudiochina.com,REJECT
+- DOMAIN-SUFFIX,formysql.com,REJECT
+- DOMAIN-SUFFIX,guitarpro.cc,REJECT
+- DOMAIN-SUFFIX,huishenghuiying.com.cn,REJECT
+- DOMAIN-SUFFIX,hypersnap.net,REJECT
+- DOMAIN-SUFFIX,iconworkshop.cn,REJECT
+- DOMAIN-SUFFIX,imindmap.cc,REJECT
+- DOMAIN-SUFFIX,jihehuaban.com.cn,REJECT
+- DOMAIN-SUFFIX,keyshot.cc,REJECT
+- DOMAIN-SUFFIX,kingdeecn.cn,REJECT
+- DOMAIN-SUFFIX,logoshejishi.com,REJECT
+- DOMAIN-SUFFIX,mairuan.cn,REJECT
+- DOMAIN-SUFFIX,mairuan.com,REJECT
+- DOMAIN-SUFFIX,mairuan.com.cn,REJECT
+- DOMAIN-SUFFIX,mairuan.net,REJECT
+- DOMAIN-SUFFIX,mairuanwang.com,REJECT
+- DOMAIN-SUFFIX,makeding.com,REJECT
+- DOMAIN-SUFFIX,mathtype.cn,REJECT
+- DOMAIN-SUFFIX,mindmanager.cc,REJECT
+- DOMAIN-SUFFIX,mindmapper.cc,REJECT
+- DOMAIN-SUFFIX,mycleanmymac.com,REJECT
+- DOMAIN-SUFFIX,nicelabel.cc,REJECT
+- DOMAIN-SUFFIX,ntfsformac.cc,REJECT
+- DOMAIN-SUFFIX,ntfsformac.cn,REJECT
+- DOMAIN-SUFFIX,overturechina.com,REJECT
+- DOMAIN-SUFFIX,passwordrecovery.cn,REJECT
+- DOMAIN-SUFFIX,pdfexpert.cc,REJECT
+- DOMAIN-SUFFIX,shankejingling.com,REJECT
+- DOMAIN-SUFFIX,ultraiso.net,REJECT
+- DOMAIN-SUFFIX,vegaschina.cn,REJECT
+- DOMAIN-SUFFIX,xmindchina.net,REJECT
+- DOMAIN-SUFFIX,xshellcn.com,REJECT
+- DOMAIN-SUFFIX,yihuifu.cn,REJECT
+- DOMAIN-SUFFIX,yuanchengxiezuo.com,REJECT
+- DOMAIN-SUFFIX,zbrushcn.com,REJECT
+- DOMAIN-SUFFIX,zhzzx.com,REJECT
+- DOMAIN-SUFFIX,zunmi.cn,REJECT
+
+# allowed tracks
+- DOMAIN,graph.instagram.com,DIRECT
+- DOMAIN,www.googleadservices.com,DIRECT
+- DOMAIN,control.kochava.com,DIRECT
+- DOMAIN,www.google-analytics.com,DIRECT
+- DOMAIN,ssl.google-analytics.com,DIRECT
+- DOMAIN,nexus.officeapps.live.com,DIRECT
+- DOMAIN,googleads.g.doubleclick.net,DIRECT
+- DOMAIN,e.crashlytics.com,DIRECT
+- DOMAIN,ib.adnxs.com,DIRECT
+- DOMAIN,safebrowsing.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,googlesyndication.com,DIRECT
+- DOMAIN-SUFFIX,googletagmanager.com,DIRECT
+- DOMAIN-SUFFIX,googletagservices.com,DIRECT
+
+# BT
+- DST-PORT,6881,DIRECT
+- DST-PORT,6882,DIRECT
+- DST-PORT,6883,DIRECT
+- DST-PORT,6884,DIRECT
+- DST-PORT,6885,DIRECT
+- DST-PORT,6886,DIRECT
+- DST-PORT,6887,DIRECT
+- DST-PORT,6888,DIRECT
+- DST-PORT,6889,DIRECT
+
+# RULE VERSION
+- DOMAIN,2020020202.version.clash.im,REJECT
+
+# =======最终规则====== #
+- GEOIP,CN,DIRECT
+
+# Fastly
+- IP-CIDR,23.235.32.0/20,Proxy
+- IP-CIDR,43.249.72.0/22,Proxy
+- IP-CIDR,103.244.50.0/24,Proxy
+- IP-CIDR,167.82.160.0/20,Proxy
+- IP-CIDR,167.82.128.0/20,Proxy
+- IP-CIDR,167.82.0.0/17,Proxy
+- IP-CIDR,157.52.64.0/18,Proxy
+- IP-CIDR,167.82.224.0/20,Proxy
+- IP-CIDR,172.111.64.0/18,Proxy
+- IP-CIDR,185.31.16.0/22,Proxy
+- IP-CIDR,199.27.72.0/21,Proxy
+- IP-CIDR,151.101.0.0/16,Proxy
+- IP-CIDR,104.156.80.0/20,Proxy
+- IP-CIDR,103.245.224.0/24,Proxy
+- IP-CIDR,103.245.222.0/23,Proxy
+
+# LAN
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,17.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+
+#MIC & Alibaba
+- DOMAIN-KEYWORD,made-in-china.com,DIRECT
+- DOMAIN-KEYWORD,alibaba.com,DIRECT
+
+- MATCH,Proxy
+
+# =======最终规则 END====== #
