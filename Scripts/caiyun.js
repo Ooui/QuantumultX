@@ -4,7 +4,7 @@
  * 
  * Quantumult X
  * [rewrite_local]
- * ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/mymoonyue/QuantumultX/master/Scripts/scripts/caiyun_svip.js
+ * ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Ooui/QuantumultX/main/Scripts/caiyun.js
  *
  * Surge
  * [Script]
